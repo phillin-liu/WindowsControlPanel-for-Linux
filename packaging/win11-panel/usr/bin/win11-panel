@@ -1,0 +1,3 @@
+#!/bin/sh
+# /usr/bin/win11-panel 启动器
+exec python3 /opt/win11-panel/main.py "$@"

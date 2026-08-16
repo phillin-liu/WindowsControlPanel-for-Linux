@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=Control Panel
+Name[zh_CN]=控制面板
+GenericName=Control Panel
+GenericName[zh_CN]=经典控制面板
+Comment=Classic Windows Control Panel replica for Linux
+Comment[zh_CN]=复刻 Windows 经典控制面板
+Exec=win11-panel
+Icon=/opt/win11-panel/icons/app/win11-panel-256.png
+Terminal=false
+Categories=Settings;System;PackageManager;
+Keywords=settings;control;panel;cpl;控制面板;设置;
+StartupNotify=true

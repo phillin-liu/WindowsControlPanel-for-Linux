@@ -1,0 +1,16 @@
+Package: win11-panel
+Version: 1.1.0
+Section: admin
+Priority: optional
+Architecture: all
+Depends: python3, python3-pyqt5
+Recommends: network-manager, bluez, pulseaudio-utils, policykit-1, x11-xserver-utils, brightnessctl, usbutils, pciutils, apt
+Suggests: redshift, clamav, ufw
+Maintainer: Win11Panel <dev@example.com>
+Description: Classic Windows Control Panel replica for Linux
+ A PyQt5 application faithfully replicating the classic Windows
+ Control Panel (category view, breadcrumbs, large/small icon views)
+ on Linux. Controls real system features via nmcli, bluetoothctl,
+ pactl, xrandr, systemctl, timedatectl and apt: system & security,
+ network, hardware & sound, programs, user accounts, personalization,
+ clock & region, ease of access, device manager and admin tools.
